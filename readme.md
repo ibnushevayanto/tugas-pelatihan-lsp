@@ -9,7 +9,8 @@
 3. Nyalakan apache dan phpmyadmin
 4. Import database yang berada dalam folder db
 5. Konfigurasi settingan database pada file **utils/koneksi.php** pada function \_\_construct
-   utils/koneksi.php
+
+utils/koneksi.php
 
 ```
 function __construct($server = "localhost", $username="root", $password="", $database="db_lsp")
