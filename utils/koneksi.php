@@ -7,7 +7,7 @@ class Koneksi
     protected $password;
     protected $database;
 
-    function __construct($server, $username, $password, $database)
+    function __construct($server = "localhost", $username="root", $password="", $database="db_lsp")
     {
         $this->server = $server;
         $this->username = $username;

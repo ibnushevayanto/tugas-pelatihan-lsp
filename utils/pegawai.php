@@ -5,7 +5,7 @@ class Pegawai extends Koneksi
 {
     function __construct()
     {
-        parent::__construct("localhost", "root", "", "db_lsp");
+        parent::__construct();
     }
 
     public function daftar_pegawai()
